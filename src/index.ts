@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync } from 'fs'
 import os from 'os'
 import path from 'path'
 
-const vsLogPath = path.resolve(os.homedir(), 'vs-picgo-log.json')
+const vsLogPath = path.resolve(os.homedir(), 'vs-picgo-data.json')
 
 function showNotification (guiApi, text: string) {
   guiApi.showNotification({
